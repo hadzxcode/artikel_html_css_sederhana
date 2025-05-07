@@ -1,0 +1,135 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/* MY CSS STYLE */
+
+body{
+    background-color: rgb(158, 158, 158);
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(img/email-pattern.jpg);
+}
+
+/* HEADER */
+
+.container{
+    width: 800px;
+    margin: auto;
+    background-color: white;
+    box-sizing: border-box;
+}
+
+.container .header{
+    box-sizing: border-box;
+}
+
+.container .header .judul{
+    font-size: 40px;
+    font-weight: bold;
+    padding: 20px;
+}
+
+.container .header ul{
+    background-color: aliceblue;
+    padding: 10px 20px 10px 20px;
+}
+
+.container .header ul li{
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.container .header ul li a{
+    color :rgb(0, 162, 255);
+    text-decoration: none;
+    padding: 5px;
+}
+
+.container .header ul li a:hover{
+   color: white; 
+   background-color: rgb(0, 162, 255);
+}
+
+/* BANNER */
+
+.banner{
+    width: 100%;
+    height: 350px;
+    background-image: url(img/laptop.jpg);
+    background-size: cover;
+    background-position: 0 -160px;
+    border-top: 5px solid rgb(124, 149, 165);
+    border-bottom: 5px solid rgb(124, 149, 165);
+}
+
+/* CONTENT */
+
+.container .content{
+    padding: 20px;
+}
+
+.content h2{
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.content .penulis{
+    font-size: 12px;
+}
+
+.content .penulis a{
+    color: rgb(0, 162, 255);
+    text-decoration: none;
+}
+
+.content p{
+    font-size: 14px;
+    margin-bottom: 15px;
+    line-height: 20px;
+}
